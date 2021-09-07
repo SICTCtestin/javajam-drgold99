@@ -2,6 +2,10 @@ body{
     background-color: #fcebb6;
     color:#221811;
     font-family: Tahoma, Arial, sans-serif;
+    background-image: url("Image/fededroad50.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 header{
     background-color: #d2b48c;
