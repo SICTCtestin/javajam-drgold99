@@ -11,9 +11,11 @@ header{
     background-color: #d2b48c;
     color: #8c3826;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 h1{
-    line-height: 200%;
+    font-size: 3em;
 }
 h2{
     color: #8c3826;
@@ -21,6 +23,7 @@ h2{
 nav{
     text-align: center;
     font-weight: bold;
+    
 }
 footer{
     background-color: #d2b48c;
@@ -30,7 +33,10 @@ footer{
 }
 #wrapper{
     width: 80%;
+    min-width: 900px;
+    max-width: 1280px;
     background-color: #fefaeb;
     margin-right: auto;
     margin-left: auto;
+    box-shadow: inset;
 }
