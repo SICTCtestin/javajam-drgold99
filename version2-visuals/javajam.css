@@ -2,10 +2,10 @@ body{
     background-color: #fcebb6;
     color:#221811;
     font-family: Tahoma, Arial, sans-serif;
-    background-image: url("Image/fededroad50.jpg");
+    background-image: url("image/fededroad50.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    background-attachment: fixed;
 }
 header{
     background-color: #d2b48c;
@@ -20,16 +20,33 @@ h1{
 h2{
     color: #8c3826;
 }
+h3{
+    color: #8c3826;
+}
+h4{
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25;
+}
 nav{
     text-align: center;
     font-weight: bold;
-    
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav a{
+    text-decoration: none;
 }
 footer{
     background-color: #d2b48c;
     font-size: .60em;
     text-align: center;
     font-style: italic;
+    padding: 1em;
+    border-top: #8c3826;
+    border-width: 2px;
 }
 #wrapper{
     width: 80%;
@@ -39,4 +56,27 @@ footer{
     margin-right: auto;
     margin-left: auto;
     box-shadow: inset;
+}
+dt{
+    color: #8c3826;
+}
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+.details{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#homehero{
+    height: 300px;
+    background-image: url(image/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
