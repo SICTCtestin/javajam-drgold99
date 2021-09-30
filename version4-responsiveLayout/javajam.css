@@ -16,6 +16,7 @@
         background-image: url("images/coffeelogo.jpg");
         background-repeat: no-repeat;
         padding-left: 240px;
+        grid-area: header;
     }
     header a:link {text-decoration: none; color: #231814;}
     header a:visited {text-decoration: none; color: #231814;}
@@ -78,6 +79,7 @@
     nav ul{
         list-style-type: none;
         padding-left: 0em;
+        flex-direction: column;
     }
     footer{
         background-color: #d2b48c;
@@ -87,6 +89,7 @@
         padding: 1em;
         border-top: #8c3826;
         border-width: 2px;
+        grid-area: footer;
     }
     #wrapper{
         width: 80%;
@@ -98,6 +101,8 @@
         margin-left: auto;
         box-shadow: inset;
         padding: 0em;
+        display: grid;
+        grid-template: "header header" "nav main" "footer footer"/200px;
     }
     dt{
         color: #8c3826;
@@ -111,6 +116,7 @@
         display: block;
         background-color: #fef6c2;
         overflow: auto;
+        grid-area: main;
     }
     .details{
         padding-left: 20%;
@@ -165,11 +171,10 @@
         color: #231814;
         padding-top: 5px;
         padding-bottom: 5px;
-        background-image: url("images/coffeelogo.jpg");
+        background-image: url("images/cup.jpg");
         background-repeat: no-repeat;
         padding-left: 0em;
         text-align: center;
-        grid-area: header;
     }
     header a:link {text-decoration: none; color: #231814;}
     header a:visited {text-decoration: none; color: #231814;}
@@ -223,7 +228,6 @@
         padding-bottom: 5px;
         float: left;
         width: 200px;
-        grid-area: nav;
     }
     nav a{
         text-decoration: none;
@@ -249,7 +253,6 @@
         padding: 1em;
         border-top: #8c3826;
         border-width: 2px;
-        grid-area: footer;
     }
     #wrapper{
         width: 80%;
@@ -261,8 +264,6 @@
         margin-left: auto;
         box-shadow: inset;
         padding: 0em;
-        display: grid;
-        grid-template: 200px/"header header" "nav main" "footer footer";
     }
     #flow{
         flex-direction: row;
@@ -279,7 +280,6 @@
         display: block;
         background-color: #fef6c2;
         overflow: auto;
-        grid-area: main;
     }
     .details{
         padding-left: 20%;
