@@ -1,0 +1,490 @@
+table{
+    align-items: center;
+    width: 90%;
+    border-spacing: 0em;
+}
+dt{
+    padding: 10px;
+    background-color: #d2b48e;
+}
+th{
+    padding: 10px;
+    background-color: #d2b48e;
+}
+
+@media(min-width:1024px){
+    body{
+        background-color: #fcebb6;
+        color:#221811;
+        font-family: Tahoma, Arial, sans-serif;
+        background-image: url("images/fadedroad50.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    header{
+        background-color: #d2b48c;
+        color: #231814;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-image: url("images/coffeelogo.jpg");
+        background-repeat: no-repeat;
+        padding-left: 240px;
+        grid-area: header;
+    }
+    header a:link {text-decoration: none; color: #231814;}
+    header a:visited {text-decoration: none; color: #231814;}
+    header a:hover {text-decoration: none; color: #fef6c2;}
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        color: #8c3826;
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    h3{
+        color: #8c3826;
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    h4{
+        background-color: #d2b48c;
+        font-size: 1.2em;
+        /*padding-left: .5em;
+        padding-bottom: .25em;*/
+        padding-left: 3em;
+        padding-right: 2em;
+        text-transform: uppercase;
+        padding-bottom: 0em;
+    }
+    p{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    div{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    ul{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    dl{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    nav{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        float: left;
+        width: 200px;
+        grid-area: nav;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    nav a:link {color: #fef6c2;}
+    nav a:visited {color: #d2b48c;}
+    nav a:hover {color: #cc9933;}
+    nav ul{
+        list-style-type: none;
+        padding-left: 0em;
+        flex-direction: column;
+    }
+    footer{
+        background-color: #d2b48c;
+        font-size: .60em;
+        text-align: center;
+        font-style: italic;
+        padding: 1em;
+        border-top: #8c3826;
+        border-width: 2px;
+        grid-area: footer;
+    }
+    #wrapper{
+        width: 80%;
+        min-width: 900px;
+        max-width: 1280px;
+        background-color: #231814;
+        /*background-color: #fefaeb;*/
+        margin-right: auto;
+        margin-left: auto;
+        box-shadow: inset;
+        padding: 0em;
+        /*display: grid;
+        grid-template: "header header" "nav main" "footer footer"/200px;*/
+    }
+    dt{
+        color: #8c3826;
+    }
+    main{
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-bottom: 2em;
+        margin-left: 200px;
+        padding-top: 0em;
+        display: block;
+        background-color: #fef6c2;
+        overflow: auto;
+        grid-area: main;
+    }
+    .details{
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;
+    }
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #homehero{
+        height: 300px;
+        background-image: url("images/hero.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #heromugs{
+        height: 300px;
+        background-image: url("images/heromugs.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #heroguitar{
+        height: 300px;
+        background-image: url("images/heroguitar.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .floatleft{
+        float: left;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .onethird{
+        float: left;
+        width: 33%;
+    }
+    * {box-sizing: border-box;}
+}
+@media(min-width:600px){
+    body{
+        background-color: #fcebb6;
+        color:#221811;
+        font-family: Tahoma, Arial, sans-serif;
+        background-image: url("images/fadedroad50.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    header{
+        background-color: #d2b48c;
+        color: #231814;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-image: url("images/coffeelogo.jpg");
+        background-repeat: no-repeat;
+        padding-left: 0em;
+        text-align: center;
+    }
+    header a:link {text-decoration: none; color: #231814;}
+    header a:visited {text-decoration: none; color: #231814;}
+    header a:hover {text-decoration: none; color: #fef6c2;}
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        color: #8c3826;
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    h3{
+        color: #8c3826;
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    h4{
+        background-color: #d2b48c;
+        font-size: 1.2em;
+        /*padding-left: .5em;
+        padding-bottom: .25em;*/
+        padding-left: 3em;
+        padding-right: 2em;
+        text-transform: uppercase;
+        padding-bottom: 0em;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    p{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    div{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    ul{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    dl{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    nav{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        float: left;
+        width: 200px;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    nav a:link {color: #fef6c2;}
+    nav a:visited {color: #d2b48c;}
+    nav a:hover {color: #cc9933;}
+    nav ul{
+        list-style-type: none;
+        padding-left: 0em;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    nav li{
+        border-bottom: none;
+    }
+    footer{
+        background-color: #d2b48c;
+        font-size: .60em;
+        text-align: center;
+        font-style: italic;
+        padding: 1em;
+        border-top: #8c3826;
+        border-width: 2px;
+    }
+    #wrapper{
+        width: 80%;
+        min-width: 900px;
+        max-width: 1280px;
+        background-color: #231814;
+        /*background-color: #fefaeb;*/
+        margin-right: auto;
+        margin-left: auto;
+        box-shadow: inset;
+        padding: 0em;
+    }
+    #flow{
+        flex-direction: row;
+    }
+    dt{
+        color: #8c3826;
+    }
+    main{
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-bottom: 2em;
+        margin-left: 200px;
+        padding-top: 0em;
+        display: block;
+        background-color: #fef6c2;
+        overflow: auto;
+    }
+    .details{
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;
+        flex-direction: row;
+    }
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #homehero{
+        height: 50vh;
+        background-image: url("images/hero.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #heromugs{
+        height: 300px;
+        background-image: url("images/heromugs.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #heroguitar{
+        height: 300px;
+        background-image: url("images/heroguitar.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .floatleft{
+        float: left;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .onethird{
+        float: left;
+        width: 33%;
+    }
+    #mobile{
+        display: none;
+    }
+    #desktop{
+        display: inline;
+    }
+    * {box-sizing: border-box;}
+}
+@media(max-width:600px){
+    body{
+        background-color: #d2b48c;
+        color:#221811;
+        font-family: Tahoma, Arial, sans-serif;
+        margin: 0em;
+    }
+    header{
+        background-color: #d2b48c;
+        color: #231814;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-image: url("images/cup.jpg");
+        background-repeat: no-repeat;
+        padding-left: 205px;
+        height: 128px;
+    }
+    header a:link {text-decoration: none; color: #231814;}
+    header a:visited {text-decoration: none; color: #231814;}
+    header a:hover {text-decoration: none; color: #fef6c2;}
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        color: #8c3826;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    h3{
+        color: #8c3826;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    h4{
+        background-color: #d2b48c;
+        font-size: 1.2em;
+        /*padding-left: .5em;
+        padding-bottom: .25em;*/
+        padding-left: 1em;
+        padding-right: 1em;
+        text-transform: uppercase;
+        padding-bottom: 0em;
+    }
+    p{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    div{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    ul{
+        padding-left: 3em;
+        padding-right: 2em;
+    }
+    dl{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    nav{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    nav a:link {color: #fef6c2;}
+    nav a:visited {color: #d2b48c;}
+    nav a:hover {color: #cc9933;}
+    nav ul{
+        list-style-type:none;
+        padding-left: 0em;
+        flex-direction: column;
+        margin: 0em;
+        padding: 0em;
+        font-size: 1.25em;
+    }
+    nav li{
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 100%;
+        border-bottom: 1px solid;
+    }
+    footer{
+        background-color: #d2b48c;
+        font-size: .60em;
+        text-align: center;
+        font-style: italic;
+        padding: 1em;
+        border-top: #8c3826;
+        border-width: 2px;
+    }
+    #wrapper{
+        background-color: #231814;
+        /*background-color: #fefaeb;*/
+        padding: 0em;
+    }
+    dt{
+        color: #8c3826;
+    }
+    main{
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-bottom: 2em;
+        padding-top: 0em;
+        display: block;
+        background-color: #fef6c2;
+    }
+    main ul{
+        padding-left: 2em;
+    }
+    .details{
+        padding-left: 20%;
+        padding-right: 20%;
+        overflow: auto;
+    }
+    img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #homehero{
+        height: 300px;
+        background-image: url("images/road.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #heromugs{
+        height: 300px;
+        background-image: url("images/threemugs.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #heroguitar{
+        height: 300px;
+        background-image: url("images/guitar.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop{
+        display: none;
+    }
+    * {box-sizing: border-box;}
+}
