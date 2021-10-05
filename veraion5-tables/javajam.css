@@ -3,15 +3,18 @@ table{
     width: 90%;
     border-spacing: 0em;
 }
-dt{
+td{
     padding: 10px;
-    background-color: #d2b48e;
 }
 th{
     padding: 10px;
+}
+td:nth-of-type(odd){
     background-color: #d2b48e;
 }
-
+th:nth-of-type(odd){
+    background-color: #d2b48e;
+}
 @media(min-width:1024px){
     body{
         background-color: #fcebb6;
